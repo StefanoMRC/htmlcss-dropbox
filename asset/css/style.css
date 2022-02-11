@@ -145,22 +145,57 @@ header{
     margin-top: 40px;
 }
 .col-1{
-    width: calc(33% -20px);
+    width: calc(100% / 3);
+}
+.titolo-col-1{
+    width: 100%;
+}
+.body-col-1{
+    width: 100%;
 }
 .col-1 .titolo-col-1{
     border: 1px solid black;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px;
 }
+
 .col-1 .body-col-1{
     border-left: 1px solid black;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
 }
+.body-col-1 p{
+    padding: 20px 0;
+    font-size: 1.3em;
+}
+.body-col-1 *{
+    margin-left: 10px;
+}
+.body-col-1 ul{
+    margin-left: 20px;
+}
+.body-col-1 ul li{
+    padding: 10px 0;
+}
 
 
 .col-2{
-    width: calc(33%);
+    width: calc(100% / 3 - 100px);
     padding: 20px 0;
+    margin-left: 30px;
+    margin-right: 30px;
 }
+.titolo-col-2{
+    width: 100%;
+}
+.body-col-2
 .col-3{
-    width: calc(33% -20px);
+    width: calc(100% / 3);
+}
+.titolo-col-3{
+    width: 100%;
+}
+.body-col-3{
+    width: 100%;
 }
