@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.button-blu{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+
+ANCHOR/* NAV */
+header{
+    width: 100%;
+}
+.menu-principale{
+    width: 100%;
+    position: fixed;
+    margin-top: 30px;
+}
+.menu-sx{
+    width: 50%;
+    margin-left: 20px;
+}
+.menu-dx{
+    width:calc(50%-40px);
+    text-align: right;
+    margin-right: 20px;
+}
+.menu-sx img{
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+.menu-sx ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+.menu-sx ul li a{
+    padding: 30px 0;
+    margin-left: 20px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+.menu-sx ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
+.menu-dx ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+.menu-dx ul li a{
+    padding:30px 0;
+    margin-right: 20px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+.menu-dx ul li a:hover{
+    border-bottom: 1px solid black;
+}
+.menu-dx ul .button-blu:hover{
+   background-color: rgb(155, 200, 221);
+}
+/* FINE NAV */
