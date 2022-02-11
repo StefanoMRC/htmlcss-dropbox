@@ -30,7 +30,10 @@ header{
 .menu-principale{
     width: 100%;
     position: fixed;
-    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 22px;
+    background-color: white;
+    z-index: 2;
 }
 .menu-sx{
     width: 50%;
@@ -78,3 +81,51 @@ header{
    background-color: rgb(155, 200, 221);
 }
 /* FINE NAV */
+.hero{
+    width: 100%;
+    background-color: rgba(180,208,231,255);
+    padding-top: 150px;
+    position: relative;
+}
+.cont-hero{
+    width: 70%;
+    margin: auto;
+}
+.cont-hero h2{
+    text-align: left;
+    font-size: 4em;
+}
+.col-txt-img{
+    width: 70%;
+    margin: auto;
+}
+.col-txt-img img{
+    width: 100%;
+}
+.cont-txt{
+    width: 30%;
+}
+.cont-txt .primo-p{
+    padding: 15px;
+    font-size: 1.2em;
+}
+.cont-txt div{
+    padding-top: 30px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.cont-txt span i{
+    padding-top: 40px;
+    margin-left: 20px;
+    font-size: 4em;
+    font-weight: bold;
+}
+.cont-txt .secondo-p{
+    margin-left: 15px;
+    font-size: 1.2em;
+}
+
+
+.cont-img{
+    width: 60%;
+}
