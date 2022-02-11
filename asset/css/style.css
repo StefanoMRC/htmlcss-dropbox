@@ -136,7 +136,7 @@ header{
     margin: auto;
     margin-top: 10px;
 }
-.prima-sezione h2{
+.prima-sezione .titolo-prima-sezione{
     padding: 50px 0;
     font-size: 2.3em;
 }
