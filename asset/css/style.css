@@ -81,6 +81,7 @@ header{
    background-color: rgb(155, 200, 221);
 }
 /* FINE NAV */
+/* HERO */
 .hero{
     width: 100%;
     background-color: rgba(180,208,231,255);
@@ -124,8 +125,42 @@ header{
     margin-left: 15px;
     font-size: 1.2em;
 }
-
-
 .cont-img{
     width: 60%;
+}
+/* FINE HERO */
+
+/* INIZIO MAIN */
+.prima-sezione{
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+}
+.prima-sezione h2{
+    padding: 50px 0;
+    font-size: 2.3em;
+}
+.cont-col{
+    width: 100%;
+    margin-top: 40px;
+}
+.col-1{
+    width: calc(33% -20px);
+}
+.col-1 .titolo-col-1{
+    border: 1px solid black;
+}
+.col-1 .body-col-1{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
+.col-2{
+    width: calc(33%);
+    padding: 20px 0;
+}
+.col-3{
+    width: calc(33% -20px);
 }
