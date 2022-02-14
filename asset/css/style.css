@@ -321,3 +321,41 @@ header{
     font-size: 1.5em;
     padding-bottom: 40px;
 }
+/* FINE SEZIONE 2 */
+
+/* INIZIO SEZIONE 3 RIGHE E COLONNE */
+.righe-e-colonne{
+    width: 70%;
+    margin: auto;
+}
+.esegui{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-size: 3.5em;
+}
+.colum{
+    width: calc((100%/3) - 30px);
+    margin-right: 30px;
+}
+.cont-img1{
+    width: 100%;
+}
+.cont-img1 img{
+    width: 100%;
+}
+.colum h3{
+    padding: 20px 0;
+    font-size: 2em;
+}
+.colum p{
+    font-size: 1.6em;
+}
+.colum p a{
+    color: black;
+}
+.colum p a:hover{
+    text-decoration: none;
+}
+.row-2{
+    margin-top: 100px;
+}
