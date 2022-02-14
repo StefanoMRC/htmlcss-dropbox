@@ -510,3 +510,69 @@ header{
     padding-top: 70px;   
 }
 /* FINE COLONNA DESTRA */
+/* FINE SEZIONE 4 */
+
+/* INIZIO QUINTA SEZIONE */
+.quinta-sez{
+    width: 100%;
+    background-color: rgba(180,208,231,255);
+    margin-bottom: 150px;
+}
+.cont-quinta-sez{
+    width: 70%;
+    margin: auto;
+}
+.txt-quinta-sez{
+    width: 50%;
+    font-size: 2em;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    color: rgba(97,8,43,255);
+}
+.bottone-quinta-sez{
+    width: 50%;
+    text-align: right;
+    padding-top: 105px;
+}
+.bottone-quinta-sez a{
+    background-color: white;
+    border: none;
+}
+.bottone-quinta-sez a:hover{
+    background-color: rgba(245,245,245,255);
+}
+/* FINE QUINTA SEZIONE */
+/* INIZIO SESTA SEZIONE */
+.sesta-sez{
+    width: 70%;
+    margin: auto;
+}
+.sesta-sez h2{
+    font-size: 4em;
+    padding-bottom: 50px;
+}
+.cont-txt-sesta-sez{
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.titolo-sesta-sez{
+    width: 90%;
+    font-size: 1.5em;
+}
+.icona-sesta-sez{
+    width: 10%;
+}
+.icona-sesta-sez i{
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+.scomparsa{
+    display: none;
+    font-size: 1.3em;
+}
+.icona-sesta-sez:hover.scomparsa{
+ display: inline-block;
+}
