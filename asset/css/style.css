@@ -21,6 +21,13 @@
     font-size: 1.5em;
     text-decoration: none;
 }
+.button-white{
+    padding: 10px 20px;
+    color: black;
+    border: 1px solid black;
+    font-size: 1.5em;
+    text-decoration: none;
+}
 
 
 ANCHOR/* NAV */
@@ -147,15 +154,14 @@ header{
     margin-right: 10px;
     font-size: 1.2em;
 }
-.radio input{
-    li
-}
+/* INIZIO COLONNE */
 .cont-col{
     width: 100%;
     margin-top: 40px;
 }
 .col-1{
     width: calc((100% / 3) - 40px);
+    
 }
 .col-cen{
     margin-left: 60px;
@@ -166,6 +172,7 @@ header{
 }
 .body-col-1{
     width: 100%;
+    min-height: 1200px;
 }
 .col-1 .titolo-col-1{
     border: 1px solid black;
@@ -198,6 +205,12 @@ header{
 .effetto:hover{
         background-color: rgba(99, 172, 231, 0.966);
 }
+.bottone-cen{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
 .acquista{
     margin-top: 20px;
     padding: 0;
@@ -237,5 +250,74 @@ header{
     padding: 10px 0;
     margin-left: 20px;    
 }
+/* FINE COLONNE */
 
-
+/* INIZIO SECONDA SEZIONE */
+.seconda-sez{
+    width: 70%;
+    margin: auto;
+}
+.team{
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 50px;
+}
+.team span{
+    display: inline-block;
+    padding: 15px;
+    font-size: 2em;
+}
+.cont-enterprise{
+    width: 100%;
+    padding-top: 30px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 100px;
+}
+.enterprise{
+    font-size: 3em;
+}
+.cont-2{
+    width: 100%;
+}
+.cont-2 .left{
+    margin-left: 20px;
+}
+.cont-2 .right{
+    margin-right: 20px;
+}
+.cont-enterprise h4{
+    margin-left: 20px;
+    font-size: 2em;
+    padding-top: 30px;
+}
+.cont-enterprise p{
+    margin-left: 20px;
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.foto-txt{
+    width: 100%;
+}
+.foto{
+    width: 50%;
+}
+.foto img{
+    width: 100%;
+    
+}
+.txt{
+    width: 50%;
+    padding: 30px;
+}
+.txt h2{
+    font-size: 2.5em;
+    padding-bottom: 30px;
+}
+.txt p{
+    font-size: 1.5em;
+    padding-bottom: 40px;
+}
