@@ -224,7 +224,7 @@ header{
 }
 .riga{
     width: 15%;
-    border-top: 1px solid rgba(0, 0, 0, 0.411);
+    border-top: 1px solid rgba(0, 0, 0, 0.192);
     margin-bottom: 20px;
 }
 .punti-sal{
@@ -327,6 +327,7 @@ header{
 .righe-e-colonne{
     width: 70%;
     margin: auto;
+    padding-bottom: 90px;
 }
 .esegui{
     padding-top: 100px;
@@ -359,3 +360,153 @@ header{
 .row-2{
     margin-top: 100px;
 }
+/* FINE SEZIONE 3 RIGHE E COLONNE */
+
+/* INIZIO SEZIONE 4 QUADRATI COLORATI */
+.quadrati-colorati{
+    width: 100%;
+}
+/* COLONNA SINISTRA */
+.quadrati{
+    width: 30%;
+
+}
+.top-sx{
+    background-color: rgba(162,211,155,255);
+    width: 50%;
+    height: 250px;
+
+    
+}
+.top-sx img{
+    width: 100%;
+    filter: invert(2);
+    padding: 30px;
+    padding-top: 100px;
+    padding-bottom: 85px;
+}
+.top-dx{
+    background-color: rgba(97,8,43,255);
+    width: 50%;
+    padding: 50px;
+    height: 250px;
+
+
+}
+.top-dx img{
+    width: 100%;
+    filter: invert(2);    
+}
+.bot-sx{
+    background-color: rgba(0,147,206,255);
+    width: 50%;
+    height: 250px;
+}
+.bot-dx{
+    background-color: rgba(255,28,28,255);
+    width: 50%;
+    padding: 50px;
+    height: 250px;
+}
+.bot-sx img{
+    width: 100%;
+    filter: invert(2);
+    padding: 30px;
+    padding-top: 100px;
+    padding-bottom: 85px;
+}
+.bot-dx img{
+    width: 100%;
+    filter: invert(2);  
+    margin-top: 20px;
+}
+/* FINE COLONNA SINISTRA */
+
+/* COLONNA CENTRALE */
+.quadrati-cen{
+    width: 40%;
+    background-color: rgba(245,245,245,255);
+    max-height: 500px;
+    min-height: 500px;
+}
+
+.cont-img-logo img{
+    height: 80px;
+}
+.txt-cen{
+    padding: 30px;
+}
+.txt-cen h2{
+    font-size: 4em;
+    display: inline-block;
+}
+.company{
+    font-size: 1.5em;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.firma{
+    font-size: 1.5em;
+}
+.txt-cen .riga{
+    margin-top: 60px;
+}
+.scroll{
+    overflow-y: scroll;
+}
+/* FINE COLONNA CENTRALE */
+
+/* INIZIO COLONNA DESTRA */
+.quadrati-colorati-dx{
+    width: 30%;
+}
+.bot-sx-2{
+    background-color: rgba(255,216,48,255);
+    width: 50%;
+    height: 250px;
+}
+.bot-dx-2{
+    background-color: rgba(255,28,28,255);
+    width: 50%;
+    padding: 50px;
+    height: 250px;
+}
+.bot-sx-2 img{
+    width: 100%;
+    filter: invert(2);
+    padding: 30px;
+    padding-top: 90px;
+}
+.bot-dx-2 img{
+    width: 100%;
+    filter: invert(2);  
+    margin-top: 20px;
+}
+.top-sx-2{
+    background-color: rgba(213,0,31,255);
+    width: 50%;
+    height: 250px;
+
+    
+}
+.top-sx-2 img{
+    width: 100%;
+    filter: invert(2);
+    padding: 30px;
+    padding-top: 100px;
+    padding-bottom: 85px;
+}
+.top-dx-2{
+    background-color: rgba(180,208,231,255);
+    width: 50%;
+    padding: 50px;
+    height: 250px;
+
+
+}
+.top-dx-2 img{
+    width: 100%;
+    filter: invert(2); 
+    padding-top: 70px;   
+}
+/* FINE COLONNA DESTRA */
