@@ -546,15 +546,18 @@ header{
 .sesta-sez{
     width: 70%;
     margin: auto;
+    padding-bottom: 200px;
 }
 .sesta-sez h2{
     font-size: 4em;
     padding-bottom: 50px;
 }
+.border{
+    border-top: 1px solid rgba(0, 0, 0, 0.219);
+}
 .cont-txt-sesta-sez{
     width: 100%;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.219);
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -565,14 +568,30 @@ header{
 .icona-sesta-sez{
     width: 10%;
 }
-.icona-sesta-sez i{
-    margin-top: 10px;
-    font-size: 1.5em;
-}
+
 .scomparsa{
     display: none;
     font-size: 1.3em;
+    padding-top: 20px;
 }
-.icona-sesta-sez:hover.scomparsa{
- display: inline-block;
+.icona-sesta-sez:hover + .scomparsa{
+    display: inline-block;
 }
+.icona-sesta-sez{
+    text-align: right;
+}
+.icona-sesta-sez i{
+    margin-right: 30px;
+    margin-top: 5px;
+    font-size: 1.5em;
+}
+.icona-sesta-sez i:last-child {
+    display: none;  
+  }
+.icona-sesta-sez:hover i:last-child {
+    display: block;  
+  }
+.icona-sesta-sez:hover i:first-child {
+    display: none;  
+  }
+  /* FINE SESTA SEZIONE */
