@@ -155,7 +155,10 @@ header{
     margin-top: 40px;
 }
 .col-1{
-    width: calc((100% / 3) - 60px);
+    width: calc((100% / 3) - 40px);
+}
+.col-cen{
+    margin-left: 60px;
     margin-right: 60px;
 }
 .titolo-col-1{
