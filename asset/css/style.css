@@ -607,3 +607,55 @@ header{
   }
   /* FINE SESTA SEZIONE */
   /* INIZIO FOOTER */
+footer{
+    width: 100%;
+    margin: auto;
+    background-color: rgba(0,0,0,255);
+}
+.menu-finale{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.colonna{
+    width: calc(100%/5);
+    color: white;
+    padding-top: 50px;
+}
+.colonna h3{
+    font-size: 2em;
+    padding-bottom: 30px;
+}
+.list-finale li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+.list-finale li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.list-finale li a:hover{
+    text-decoration: underline;
+}
+.riga-2{
+    margin-top: 100px;
+    width: 40%;
+    border-top: 1px solid white;
+}
+.fa-earth-americas{
+    filter: invert(50%);
+    font-size: 1.8em;
+}
+.fa-caret-up{
+    filter: invert(50%);
+}
+.lingua a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+.lingua{
+    display: inline-block;
+    padding-top: 50px;
+}
