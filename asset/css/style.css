@@ -391,15 +391,16 @@ header{
     background-color: rgba(162,211,155,255);
     width: 50%;
     height: 250px;
-
+    border: 20px inset rgba(208,233,205,255);
     
 }
 .top-sx img{
     width: 100%;
     filter: invert(2);
     padding: 30px;
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 85px;
+    
 }
 .top-dx{
     background-color: rgba(97,8,43,255);
