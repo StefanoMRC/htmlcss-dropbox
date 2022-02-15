@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 .clearfix{
     content: "";
@@ -332,6 +333,10 @@ header{
     font-size: 1.5em;
     padding-bottom: 40px;
 }
+.button-white:hover{
+    background-color: rgba(245,245,245,255);
+}
+
 /* FINE SEZIONE 2 */
 
 /* INIZIO SEZIONE 3 RIGHE E COLONNE */
